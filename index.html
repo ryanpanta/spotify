@@ -11,21 +11,25 @@
 
 <body>
     <div class="music-container">
-        <h1 class="playlist-title">Playlist do Ryan</h1>
-        <img class="cover" src="imagens/menotti.jpeg" alt="Os menotti">
+        <h1 class="playlist-title">Playlist do Ryan</h4>
+        <img class="cover" alt="Disc Cover">
+        <audio id="audio"></audio>
         <div class="below-cover">
             <div class="song-info">
-                <p>Nome da Música</p>
-                <p>Nome da Banda</p>
+                <div class="song-name">Nome da Música</div>
+                <div class="band-name light-color">Nome da Banda</p></div>
             </div>
-            <div id="like" class="button"><i class="bi bi-heart"></i></div>
+            <button id="like" class="button light-color"><i class="bi bi-heart"></i></button>
+        </div>
+        <div class="progress-bar">
+            <div class="current-progress"></div>
         </div>
         <div class="button-container">
-            <div id="shuffle" class="button"><i class="bi bi-shuffle"></i></div>
-            <div id="previous" class="button button-navigate"><i class="bi bi-skip-start-fill"></i></div>
-            <div id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></div>
-            <div id="next" class="button button-navigate"><i class="bi bi-skip-end-fill"></i></div>
-            <div id="repeat" class="button"><i class="bi bi-repeat"></i></div>
+            <button id="shuffle" class="button"><i class="bi bi-shuffle"></i></button>
+            <button id="previous" class="button button-navigate"><i class="bi bi-skip-start-fill"></i></button>
+            <button id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></button>
+            <button id="next" class="button button-navigate"><i class="bi bi-skip-end-fill"></i></button>
+            <button id="repeat" class="button"><i class="bi bi-repeat"></i></button>
         </div>
     </div>
 
